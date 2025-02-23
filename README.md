@@ -30,7 +30,11 @@ Shika Uppala, Megan Fister
 
 #### Part 1 - Limits of Op Amps
 To begin, we constructed the unity gain inverting op amp circuit that is pictured below.
-![Inverting Op Amp](https://github.com/aashikauppala/BAE305lab3/blob/main/Lab%203%20Figure%203%20Switch%20On.jpg)
+![Inverting Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Inverting%20Op%20Amp.png)
+
+Next, we constructued the moderate gain inverting op amp circuit that is pictured below.
+![Moderate Gain Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Gain%20Op%20Amp.png)
+
 
 #### Part 2 - Op Amps and Frequency Response
 
@@ -38,6 +42,22 @@ To begin, we constructed the unity gain inverting op amp circuit that is picture
 ## Results
 
 ### Part 1 - Limits of Op Amps
+*****Drive the voltage divider with the positive and negative voltage supplies.
+*****Collect Vo vs. Vi data by adjusting the potentiometer to change the input voltage
+|$V_i$ (V)|$V_o$ (V)|
+|---|---|
+|15.00|  -12.91 |
+|13.99| -12.92  |
+|12.00|  -11.90  |
+|5.000|  -4.946 |
+|0.004| 0.012   |
+|-5.041|  5.018  |
+|-12.00|  11.92  |
+|-14.00|  13.91 |
+|-14.99| 14.24   |
+
+****Prepare a graph showing the lab data as scattered points around the line for the expected gain (consider actual resistor values)
+
 
 ### Part 2 - Op Amps and Frequency Response
 
