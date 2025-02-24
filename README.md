@@ -60,7 +60,7 @@ Expected gain = -67.6 kΩ / 67.9 kΩ = -0.994
 Below is a graph showing the lab data as scattered points around the line for the expected gain.
 
 _Graph 1_
-![Inverting Op Amp Gain](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Vi%20Vo%20Graph.png)
+![Inverting Op Amp Gain](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Graph.png)
 
 
 Next, we constructued the moderate gain inverting op amp circuit that is pictured below.
