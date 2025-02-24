@@ -1,6 +1,6 @@
 # Lab 4 - Operational Amplifiers
 
-Shika Uppala, Megan Fister
+Aashika Uppala, Megan Fister
 
 2/24/2025
 
