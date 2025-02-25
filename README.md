@@ -37,6 +37,7 @@ By constructing and testing these circuits, students will develop a deeper under
 
 #### Part 1 - Limits of Op Amps
 To begin, we constructed the unity gain inverting op amp circuit that is pictured below.
+
 ![Inverting Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Inverting%20Op%20Amp.png)
 
 We connected two different DC Power Supplies set to 15 V and drove the voltage divider with the positive and negative voltage supplies. We collected data for $V_o$ vs. $V_i$ by adjusting the potentiometer to change the input voltage, and recorded 9 $V_i$ values that range from negative to positive saturation points. The data we recorded can be seen below in Table 1.
@@ -63,6 +64,7 @@ Expected gain = -67.6 kΩ / 67.9 kΩ = -0.994
 The graph below displays the lab data as scattered points around the expected gain line. Ideally, the gain would be -1 if the resistors were perfectly equal, but due to tolerance errors, we calculated a slightly different value of -0.9941. However, this is very close to -1, and the data points closely follow the expected trendline, indicating minimal deviation.
 
 _Graph 1_
+
 ![Inverting Op Amp Gain](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Graph.png)
 
 
@@ -109,6 +111,7 @@ These results make sense because the gain of our high gain inverting op amp circ
 
 #### Part 2 - Op Amps and Frequency Response
 We constructed a voltage follower op amp circuit that is pictured below. 
+
 ![Voltage Follower Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Voltage%20Follower%20Op%20Amp.png)
 
 We set the function generator to 1V amplitude and 2 kHz frequency and made sure that $V_i$ = $V_o$ which means that the gain for the voltage follower is equal to 1.
@@ -116,6 +119,7 @@ We set the function generator to 1V amplitude and 2 kHz frequency and made sure 
 We measured the frequency limit for the 741 op amp to be 14,000 Ω.
 
 Next, we constructed an integrating op amp circuit as shown in the picture below.
+
 ![Integrating Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Integration%20Op%20Amp.png)
 
 We connected the function generator to observe the input and output waveforms for 4 kHz, 1 V peak to peak, sine, square, and triangle waves. Pictures of our results are shown below.
