@@ -66,7 +66,7 @@ _Graph 1_
 Next, we constructued the moderate gain inverting op amp circuit that is pictured below.
 ![Moderate Gain Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Gain%20Op%20Amp.png)
 
-Connecting this circuit to a function generator, we set the function generator to 100mV and 2 kHz. 
+Connecting this circuit to a function generator, we set the voltage to 100mV and the frequency to 2 kHz. 
 ![Moderate Gain Full Setup](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Full%20Setup.jpg)
 
 We also connected both $V_i$ and $V_o$ to the Oscilloscope. $V_i$ is in channel 1, $V_o$ is in channel 2.
@@ -76,6 +76,14 @@ We use the oscilloscope to measure and calculate the gain of the circuit.
 
 ![Moderate Gain Channel 1](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Channel%201.jpg)
 ![Moderate Gain Channel 2](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Channel%202.jpg)
+
+Gain = - $V_o$ / $V_i$ = 2.56 V / .0352 V = -72.73
+
+Next, we constructed the high-gain inverting op amp circuit shown in Figure 3. 
+![High Gain Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20High%20Gain%20Op%20Amp.png)
+
+Connecting this circuit to a function generator, we set the voltage to 10mV and the frequency to 2 kHz.
+
 
 
 #### Part 2 - Op Amps and Frequency Response
