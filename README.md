@@ -54,9 +54,12 @@ _Table 1_
 |-14.00|  13.91 |
 |-14.99| 14.24   |
 
-Measuring the true resistance of the 68kohm resistors gave us values of $R_f$ = and $R_i$ = , where $R_f$ is the and $R_i$ is the .
-Gain is found by using the equation -$R_f$/$R_i$.
+Measuring the true resistance of the 68 kΩ resistors gave us values of $R_f$ = 67.6 kΩ and $R_i$ = 67.9 kΩ.
+
+Gain is found by using the equation - $R_f$ / $R_i$ 
+
 Expected gain = -67.6 kΩ / 67.9 kΩ = -0.994
+
 Below is a graph showing the lab data as scattered points around the line for the expected gain.
 
 _Graph 1_
@@ -64,38 +67,79 @@ _Graph 1_
 
 
 Next, we constructued the moderate gain inverting op amp circuit that is pictured below.
+
 ![Moderate Gain Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Gain%20Op%20Amp.png)
 
 Connecting this circuit to a function generator, we set the voltage to 100mV and the frequency to 2 kHz. 
+
 ![Moderate Gain Full Setup](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Full%20Setup.jpg)
 
 We also connected both $V_i$ and $V_o$ to the Oscilloscope. $V_i$ is in channel 1, $V_o$ is in channel 2.
+
 ![Moderate Gain Connection to Oscilloscope](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Gain%20Connected%20to%20Oscope%20Gray%20Clips.jpg)
 
 We use the oscilloscope to measure and calculate the gain of the circuit.
 
-![Moderate Gain Channel 1](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Channel%201.jpg)
-![Moderate Gain Channel 2](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Channel%202.jpg)
+Measuring with the amplitude in Channel 1, we find $V_i$ = 632 mV.
 
-Gain = - $V_o$ / $V_i$ = 2.56 V / .0352 V = -72.73
+![Moderate Gain Channel 1](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Gain%20Op%20Amp%20Channel%201.jpg)
 
-Next, we constructed the high-gain inverting op amp circuit shown in Figure 3. 
+Measuring with the amplitude in Channel 2, we find $V_o$ = 640 mV.
+
+![Moderate Gain Channel 2](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Moderate%20Gain%20Op%20Amp%20Channel%202.jpg)
+
+Gain = - $V_o$ / $V_i$ = 640 mV / 632 mV = -1.01
+
+
+Next, we constructed the high gain inverting op amp circuit that is pictured below.
+
 ![High Gain Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20High%20Gain%20Op%20Amp.png)
 
 Connecting this circuit to a function generator, we set the voltage to 10mV and the frequency to 2 kHz.
 
+We also connected both $V_i$ and $V_o$ to the Oscilloscope. $V_i$ is in channel 1, $V_o$ is in channel 2. We use the oscilloscope to measure and calculate the gain of the circuit.
 
+Measuring with the amplitude in Channel 1, we find $V_i$ = 35.2 mV. 
+
+![High Gain Op Amp Channel 1](https://github.com/meganfister/Lab4/blob/main/Lab%204%20High%20Channel%201.jpg)
+
+Measuring with the amplitude in Channel 1, we find $V_i=o$ = 2.56 V.
+
+![High Gain Op Amp Channel 2](https://github.com/meganfister/Lab4/blob/main/Lab%204%20High%20Channel%202.jpg)
+
+Gain = - $V_o$ / $V_i$ = 2.56 V / .0352 V = -72.73
 
 #### Part 2 - Op Amps and Frequency Response
+We constructed a voltage follower op amp circuit that is pictured below. 
+![Voltage Follower Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Voltage%20Follower%20Op%20Amp.png)
+
+Set the function generator to 1V amplitude and 2 kHz frequency and made sure that $V_i$ = $V_o$
 
 
-## Results
+Next, we constructed an integrating op amp circuit as shown in the picture below.
+![Integrating Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Integration%20Op%20Amp.png)
 
-### Part 1 - Limits of Op Amps
+Connect the function generator to observe the input and output waveforms for 4 kHz, 1 V peak to peak, sine, square, and triangle waves
+
+![Integrating Op Amp Sine Waves](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Integration%20Sin.jpg)
+
+![Integrating Op Amp Triangle Waves](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Integration%20Triangle.jpg)
+
+![Integrating Op Amp Square Waves](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Integration%20Square.jpg)
 
 
+Finally, we constructed a differentiating op amp circuit as shown in the picture below. 
 
-### Part 2 - Op Amps and Frequency Response
+![Differentiating Op Amp](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Differentiating%20Op%20Amp.png)
+
+
+The function to create square waves on our function generator was broken which is why the square waves display as flat lines.
+
+![Differentiating Op Amp Sine Waves](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Differentiating%20Sin.jpg)
+
+![Differentiating Op Amp Triangle Waves](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Differentiating%20Triangle.jpg)
+
+![Differentiating Op Amp Square Waves](https://github.com/meganfister/Lab4/blob/main/Lab%204%20Differentiating%20Square.jpg)
 
 
 ## Discussion
@@ -103,7 +147,7 @@ Connecting this circuit to a function generator, we set the voltage to 10mV and 
 _Compare the performance of each amplifier circuit to its expected theoretical performance with regard to gain._
 
 The moderate gain amplifier (with a higher resistor ratio) should exhibit a larger gain, and oscilloscope measurements should confirm it.
-The high gain amplifier may show deviations at extreme voltages due to saturation effects. For the unity gain inverting amplifier, the expected gain is -1, and measured values should confirm this. Deviations may arise due to tolerances in resistor values, non-ideal characteristics of the LM741 (e.g., offset voltage and input bias currents), and limitations in measurement accuracy.
+The high gain amplifier may show deviations at extreme voltages due to saturation effects but will still exhibit a larger gain than the moderate gain amplifier. For the unity gain inverting amplifier, the expected gain is -1, and measured values should confirm this. Deviations may arise due to tolerances in resistor values, non-ideal characteristics of the LM741 (e.g., offset voltage and input bias currents), and limitations in measurement accuracy.
 
 _Comment on the limits of op-amp circuits with respect to maximum output voltage._
 
@@ -111,7 +155,7 @@ The LM741 cannot output voltages equal to the supply rails due to output voltage
  
 _Are the LM741 op amps symmetric i.e. does the positive voltage performance equal the negative voltage performance?_
 
-Ideally, an op-amp should have symmetric performance. n reality, LM741 may show asymmetry due to differences in internal transistor behavior, bias currents, and small mismatches in fabrication. This can be observed by checking if the positive and negative output swings reach the same absolute voltage levels. In this case, we saw some asymmetry due to internal transistor behavior. 
+Ideally, an op-amp should have symmetric performance. In reality, LM741 may show asymmetry due to differences in internal transistor behavior, bias currents, and small mismatches in fabrication. This can be observed by checking if the positive and negative output swings reach the same absolute voltage levels. In this case, we saw some asymmetry due to internal transistor behavior. 
 
 ### Part 2 - Op Amps and Frequency Response
 _Did the integrating and differentiating circuits perform the mathematical operations expected? Explain._
@@ -119,6 +163,7 @@ _Did the integrating and differentiating circuits perform the mathematical opera
 The integrator performed by for a sine wave input, the output should be a cosine wave (phase-shifted by 90°). For a triangle wave input, the output should be a parabolic wave. Deviations can occur due to DC drift and practical limits of the op-amp. 
 The differentiator performed for a sine wave input, the output should be a cosine wave (also phase-shifted by 90°).
 For a triangle wave input, the output should be a square wave. At high frequencies, the differentiator may become unstable due to noise amplification.
+The square function on our function generator was broken, therefore all of our square data displays as straight lines which is incorrect. 
 ## Conclusion
 This lab provided hands-on experience with various Op-Amp circuits and demonstrated their theoretical and practical behaviors. The experimental gain values generally aligned with theoretical calculations, though minor deviations occurred due to component tolerances and Op-Amp limitations. The voltage follower exhibited unity gain as expected, but the LM741’s bandwidth constraints became evident at higher frequencies.
 The inverting amplifier circuits demonstrated predictable gain characteristics, but output voltage limitations prevented full utilization of the supply range.
